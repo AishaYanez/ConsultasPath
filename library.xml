@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+	<loan>
+		<books>
+			<book>
+				<title>Harry Potter y la piedra filosofal</title>
+				<author>JK Rowling</author>
+			</book>
+			<book>
+				<title>Harry Potter y la cámara de los secretos</title>
+				<author>JK Rowling</author>
+			</book>
+		</books>
+		<user>
+			<name>Luis</name>
+			<surname>González Díaz</surname>
+			<user_code>D567869</user_code>
+		</user>
+		<librarian>
+			<name>Marta</name>
+			<surname>González González</surname>
+			<employee_code>DZ880546</employee_code>
+		</librarian>
+		<loan_date>2023-02-11</loan_date>
+		<deadline>2023-03-11</deadline>
+	</loan>
+	<loan>
+		<books>
+			<book>
+				<title>Biologia Maritima II</title>
+				<author>HS González</author>
+				<return_date>2023-01-23</return_date>
+			</book>
+			<book>
+				<title>Harry Potter y la cámara de los secretos</title>
+				<author>JK Rowling</author>
+			</book>
+		</books>
+		<user>
+			<name>Antonio</name>
+			<surname>Estevés Peréz</surname>
+			<user_code>Z43543534</user_code>
+		</user>
+		<librarian>
+			<name>Marta</name>
+			<surname>González González</surname>
+			<employee_code>DZ857346</employee_code>
+		</librarian>
+		<loan_date>2023-01-13</loan_date>
+		<deadline>2023-02-13</deadline>
+	</loan>
+</library>
