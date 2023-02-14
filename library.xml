@@ -5,10 +5,12 @@
 			<book>
 				<title>Harry Potter y la piedra filosofal</title>
 				<author>JK Rowling</author>
+				<return_date></return_date>
 			</book>
 			<book>
 				<title>Harry Potter y la cámara de los secretos</title>
 				<author>JK Rowling</author>
+				<return_date></return_date>
 			</book>
 		</books>
 		<user>
@@ -34,6 +36,7 @@
 			<book>
 				<title>Harry Potter y la cámara de los secretos</title>
 				<author>JK Rowling</author>
+				<return_date></return_date>
 			</book>
 		</books>
 		<user>

@@ -53,15 +53,15 @@
           </tbody>
         </table>
         <button onclick="selectQuestion(0)">Titulos</button>
-        <button onclick="selectQuestion(1)">Titulos</button>
-        <button onclick="selectQuestion(2)">Titulos</button>
-        <button onclick="selectQuestion(3)">Titulos</button>
-        <button onclick="selectQuestion(4)">Titulos</button>
-        <button onclick="selectQuestion(5)">Titulos</button>
-        <button onclick="selectQuestion(6)">Titulos</button>
-        <button onclick="selectQuestion(7)">Titulos</button>
-        <button onclick="selectQuestion(8)">Titulos</button>
-        <button onclick="selectQuestion(9)">Titulos</button>
+        <button onclick="selectQuestion(1)">Libros de JK Rowling</button>
+        <button onclick="selectQuestion(2)">Libros entregados</button>
+        <button onclick="selectQuestion(3)">Codigo del empleado</button>
+        <button onclick="selectQuestion(4)">Libros que no son de JK Rowling</button>
+        <button onclick="selectQuestion(5)">Nombre de usuarios</button><br/>
+        <button onclick="selectQuestion(6)">Codigo de usuarios</button>
+        <button onclick="selectQuestion(7)">Nombre de usuario, que se llevo un libro que no era de JK Rowling</button>
+        <button onclick="selectQuestion(8)">Libros no devueltos</button>
+        <button onclick="selectQuestion(9)">Usuarios con libros sin entregar</button>
         <div id="contenedor"></div>
         <script src="/js/library.js"></script>
       </body>

@@ -3,7 +3,14 @@ var xhttp = new XMLHttpRequest();
             showResult(xhttp.responseXML, value);
     }
 
-arrayPath = ["//title","//book[author='JK Rowling']/title","//book[return_date]/title","//loan[loan_date='2023-01-13']/librarian/employee_code","//book[author!='JK Rowling']/title","//user/name","//user/user_code","//loan/books/book[author!='JK Rowling']/../../user/name","Que no hayan sido devueltos","Que no hayan sido devueltos y superen la fecha limite"]
+// var date = new Date();
+// var getYear = date.toLocaleString("default", { year: "numeric" });    
+// var getMonth = date.toLocaleString("default", { month: "2-digit" });
+// var getDay = date.toLocaleString("default", { day: "2-digit" });
+// var now = getYear + "-" + getMonth + "-" + getDay;
+// var string1 = "//loan[xs:date(deadline)]>"+now+"]/books/book/title";
+
+arrayPath = ["//title","//book[author='JK Rowling']/title","//book[return_date!='']/title","//loan[loan_date='2023-01-13']/librarian/employee_code","//book[author!='JK Rowling']/title","//user/name","//user/user_code","//loan/books/book[author!='JK Rowling']/../../user/name","//book[return_date='']/title","//book[return_date='']/../../user/name"]
 xhttp.open("GET", "../library.xml", true);
 xhttp.send(); 
 
